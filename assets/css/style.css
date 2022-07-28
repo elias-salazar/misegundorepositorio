@@ -29,12 +29,16 @@ img{
 
 body{
     font-family: 'Barlow', sans-serif;
+    
+}
+body p{
+    font-size:1.3rem;
 }
 
 /* bloque--elemento__modificador*/
 
 .header{
-    min-height: 100vh;
+    min-height: 77vh;
     background-image: url('../images/mobile/image-header.jpg');
     background-repeat: no-repeat;
     background-position: center -300px;
@@ -149,7 +153,7 @@ body{
     font-family: 'Fraunces', serif;
     font-weight: bold;
     color: black;
-    font-size: 1.75rem;
+    font-size: 2.5rem;
 }
 
 .section--link{
@@ -196,6 +200,7 @@ body{
     font-family: "fraunces", "serif";
     font-weight: bold;
     margin-bottom: 1rem;
+    font-size: 2rem;
 }
 .section-clients{
     display: flex;
@@ -220,7 +225,7 @@ body{
     color: var(--very-dark-grayish-blue);
 }
 .section-clients--nomb{
-    font-weight: bold;
+    font-size: x-large;
 }
 
 @media screen and ( min-width: 678px ){
