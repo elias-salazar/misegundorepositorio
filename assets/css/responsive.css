@@ -1,0 +1,7 @@
+@media (min-width: 678px){
+    .nav--menu{
+        position: static;
+        opacity: 1;
+        color: red;
+    }
+}
